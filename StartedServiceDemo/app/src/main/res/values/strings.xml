@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">StartedServiceDemo</string>
+    <string name="hogUIThread">Hog UI Thread</string>
+    <string name="startServiceOnThread1">Start Service (on Thread 1)</string>
+    <string name="startServiceOnThread2">Start Service (on Thread 2)</string>
+    <string name="stopService">Stop Service</string>
+</resources>

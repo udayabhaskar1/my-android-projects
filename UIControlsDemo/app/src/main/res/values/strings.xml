@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">UIControlsDemo</string>
+    <string name="show_dialog">Settings</string>
+    <string name="say_hello">Say Hello</string>
+    <string name="hello_msg">Hello, how are you?</string>
+    <string name="alertTitle">Hello</string>
+    <string name="alertMsg">Do you want to save your changes?</string>
+    <string name="upload">Upload</string>
+    <string name="search">Search</string>
+</resources>

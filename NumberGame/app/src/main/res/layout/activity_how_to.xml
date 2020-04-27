@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_empty"
+    tools:context="e.albertot.numbergame.HowToActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/anton"
+        android:text="Listen Up!"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="40sp"
+        android:layout_marginLeft="10dp"
+        tools:ignore="HardcodedText,UnusedAttribute"
+        android:layout_marginStart="10dp" />
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="290dp"
+        android:background="@color/colorBackgroundButton"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="casual"
+            android:text="The rule is simple:"
+            android:textColor="@color/buttonFontColor"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText,UnusedAttribute" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="casual"
+            android:text="You need to choose the number from the smallest to the largest in a period of time."
+            android:textColor="@color/buttonFontColor"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText,UnusedAttribute" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="casual"
+            android:text="However, if you choose the wrong number three times, you'll lose the game."
+            android:textColor="@color/buttonFontColor"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText,UnusedAttribute" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@color/colorBackgroundButton"
+        android:fontFamily="serif-monospace"
+        android:text="back"
+        android:textColor="@color/buttonFontColor"
+        android:textSize="20sp"
+        android:onClick="backButton"
+        tools:ignore="HardcodedText,UnusedAttribute" />
+
+</LinearLayout>

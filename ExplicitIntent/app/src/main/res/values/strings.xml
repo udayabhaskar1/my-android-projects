@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ExplicitIntent</string>
+    <string name="voteId">Vote Id:</string>
+    <string name="Go">Go</string>
+    <string name="Candidate1">James</string>
+    <string name="Candidate2">Yong</string>
+    <string name="Candidate3">Kim</string>
+    <string name="Candidate4">Lee</string>
+    <string name="youVotedFor">You Voted For</string>
+    <string name="voteNow">Vote Now!</string>
+</resources>

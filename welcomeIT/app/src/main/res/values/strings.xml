@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">welcomeIT</string>
+    <string name="welcomeText">Welcome to My Diet App</string>
+</resources>

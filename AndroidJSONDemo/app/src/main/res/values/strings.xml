@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AndroidJSONDemo</string>
+    <string name="btnGet">Get Data</string>
+    <string name="btnSet">Set Data</string>
+</resources>

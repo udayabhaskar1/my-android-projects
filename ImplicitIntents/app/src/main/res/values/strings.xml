@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Tools</string>
+    <string name="Dial">Dial</string>
+    <string name="SMS">SMS</string>
+    <string name="Email">Email</string>
+    <string name="Contacts">Contacts</string>
+    <string name="GeoLocation">GeoLocation</string>
+    <string name="Browse">Browse</string>
+</resources>

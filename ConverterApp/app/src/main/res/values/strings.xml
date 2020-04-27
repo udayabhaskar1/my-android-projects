@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ConverterApp</string>
+    <string name="distance">Distance:</string>
+    <string name="converted_to">Converted To:</string>
+    <string name="convert">CONVERT</string>
+    <string name="_1000">1,000</string>
+    <string name="settings">Settings</string>
+    <string name="from">From:</string>
+    <string name="to">To:</string>
+    <string name="meter">METER</string>
+    <string name="kilometer">KILOMETER</string>
+    <string name="miles">MILES</string>
+    <string name="back">Back</string>
+</resources>

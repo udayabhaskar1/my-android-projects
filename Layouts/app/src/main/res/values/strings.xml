@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">My Calculator</string>
+    <string name="calculator_text">3.14159265359</string>
+</resources>

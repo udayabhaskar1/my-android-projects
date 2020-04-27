@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">IntentServiceDemo</string>
+    <string name="startTask1">Start Task 1</string>
+    <string name="startTask2">Start Task 2</string>
+</resources>

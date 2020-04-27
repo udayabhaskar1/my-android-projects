@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context="e.udayb.converterapp.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/colorAccent"
+            android:text="DISTANCE CONVERTER"
+            android:textAlignment="center"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="20dp"
+            android:typeface="serif" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="125dp"
+            android:layout_height="35dp"
+            android:text="Distance:"
+            android:typeface="serif"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/inputText"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/_1000"
+            android:inputType="number"
+            android:typeface="serif"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/inputUnit"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="(meters)"
+            android:textColor="@android:color/holo_blue_dark"
+            android:typeface="serif"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="@string/converted_to"
+            android:typeface="serif"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/outputText"
+            android:layout_width="120dp"
+            android:layout_height="35dp"
+            android:textSize="20sp"
+            android:typeface="serif"/>
+
+        <TextView
+            android:id="@+id/outputUnit"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="(kilometers)"
+            android:typeface="serif"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/convertButton"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:onClick="buttonConvert"
+        android:text="@string/convert"
+        android:typeface="serif"
+        android:textSize="20sp"
+        tools:ignore="RtlHardcoded" />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="@color/colorPrimary"
+        android:onClick="buttonSettings"
+        android:text="@string/settings"
+        android:textSize="20sp"
+
+        tools:ignore="RtlHardcoded" />
+
+</LinearLayout>

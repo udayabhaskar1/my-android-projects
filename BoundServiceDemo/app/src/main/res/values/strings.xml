@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BoundServiceDemo</string>
+    <string name="bindService">Bind Service</string>
+    <string name="startTask">Start Task</string>
+    <string name="stopTask">Stop Task</string>
+    <string name="unbindService">Unbind Service</string>
+</resources>
